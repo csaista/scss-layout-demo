@@ -1,0 +1,46 @@
+@import "mixin";
+@import "fonts";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+.about-us-wrapper {
+    margin-top: 0px;
+
+    h2 {
+        color: #125478;
+        font-weight: 800;
+        font-family: 'life_saversregular';
+    }
+
+    h4 {
+        font-family: 'Roboto';
+        color: $heading-color;
+        margin-top: 35px;
+        font-weight: 300;
+    }
+
+    p {
+        color: $text-color;
+    }
+
+    .works {
+        .work-images {
+            .art {
+                flex-wrap: wrap;
+                margin-top: 15px;
+
+            }
+
+            img {
+                height: 200px;
+                width: 200px;
+                object-fit: cover;
+                object-position: center center;
+                margin: 5px;
+            }
+        }
+    }
+
+    .about-us {
+        margin-top: 30px;
+    }
+
+}

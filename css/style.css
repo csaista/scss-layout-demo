@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+@font-face {
+  font-family: "life_saversregular";
+  src: url("../fonts/lifesavers-regular-webfont.woff") format("woff2"), url("../fonts/lifesavers-regular-webfont.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.navigation-bar {
+  padding: 50px;
+}
+.navigation-bar .logo-img {
+  width: 100px;
+}
+.navigation-bar ul li a {
+  color: #7f8c8d;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 20px;
+}
+.navigation-bar ul li a:hover {
+  color: #1abc9c;
+}
+.navigation-bar ul li a:active {
+  color: #8e44ad;
+}
+@media only screen and (max-width: 1199px) {
+  .navigation-bar ul li a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+.navigation-bar .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navigation-bar .custom-toggler {
+  border-color: black;
+}
+
+@font-face {
+  font-family: "life_saversregular";
+  src: url("../fonts/lifesavers-regular-webfont.woff") format("woff2"), url("../fonts/lifesavers-regular-webfont.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.about-us-wrapper {
+  margin-top: 0px;
+}
+.about-us-wrapper h2 {
+  color: #125478;
+  font-weight: 800;
+  font-family: "life_saversregular";
+}
+.about-us-wrapper h4 {
+  font-family: "Roboto";
+  color: #34495e;
+  margin-top: 35px;
+  font-weight: 300;
+}
+.about-us-wrapper p {
+  color: #7f8c8d;
+}
+.about-us-wrapper .works .work-images .art {
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.about-us-wrapper .works .work-images img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center center;
+  margin: 5px;
+}
+.about-us-wrapper .about-us {
+  margin-top: 30px;
+}
+
+.side-bar-wrapper {
+  background-color: #1abc9c;
+  padding-top: 30px;
+}
+.side-bar-wrapper .side-bar ul li {
+  color: white;
+}
+.side-bar-wrapper .side-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.side-bar-wrapper .side-bar ul li a:hover {
+  color: black;
+}
+.side-bar-wrapper .side-bar ul li a:active {
+  color: #bdc3c7;
+}
+
+.footer {
+  padding: 50px;
+  background-color: #8e44ad;
+}
+.footer .social-media a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.footer .social-media a:hover {
+  color: #1abc9c;
+}
+.footer .social-media a:active {
+  color: #bdc3c7;
+}
+
+@media only screen and (max-width: 575px) {
+  .about-us-wrapper h2 {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

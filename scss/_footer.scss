@@ -1,0 +1,21 @@
+@import "mixin";
+.footer {
+    @include space(50px);
+    background-color: $primary-color;
+
+    .social-media {
+        a {
+            @include link();
+            font-size: 20px;
+            margin-right: 20px;
+
+            &:hover {
+                color: $secondary-color;
+            }
+
+            &:active {
+                color: $sub-heading-color;
+            }
+        }
+    }
+}

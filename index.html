@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASS layout 1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-md navigation-bar ">
+                <a href="#" class="navbar-brand">
+                    <img src="images/saista-creation-logo.png" class="logo-img" alt="">
+                </a>
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+
+                <div class="collapse navbar-collapse collapse show" id="collapsibleNavbar">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="row about-us-wrapper">
+            <div class="col-lg-9 col-md-8 ">
+                <div class="works">
+                    <h2>Works</h2>
+                    <div class="work-images">
+                        <h4>Digital-art</h4>
+                        <div class="d-flex digital-art art">
+                            <img src="images/pencil.png" alt="">
+                            <img src="images/life.jpg" alt="">
+                            <img src="images/pink-cupcake.png" alt="">
+                            <img src="images/shreya.jpg" alt="">
+                        </div>
+                        <h4>Hand-lettering</h4>
+                        <div class=" d-flex hand-lettering art">
+                            <img src="images/nasib.jpg" alt="">
+
+                            <img src="images/enjoy.jpg" alt="">
+                            <img src="images/delhi.jpg" alt="">
+                            <img src="images/orange-type.jpg" alt="">
+                        </div>
+                        <h4>Painting</h4>
+                        <div class="d-flex painting art">
+                            <img src="images/gown.jpg" alt="">
+                            <img src="images/lamp.jpg" alt="">
+                            <img src="images/cupcake.jpg" alt="">
+                            <img src="images/oranges.jpg" alt="">
+                        </div>
+                        <h4>Fan-art</h4>
+                        <div class="d-flex fan-art art">
+                            <img src="images/shreya.jpg" alt="">
+                            <img src="images/aman.jpg" alt="">
+                            <img src="images/ruhan.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="about-us">
+                    <h2>About Us</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged. It was popularised in the
+                        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                        recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                        Ipsum.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4  side-bar-wrapper">
+                <div class="side-bar">
+                    <h2>Check It Out</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li class="products"><a href="#">Products</a></li>
+                        <ul>
+                            <li><a href="#">Hand-lettering</a></li>
+                            <li><a href="#">Digital-art</a></li>
+                            <li><a href="#">Fan-art</a></li>
+                            <li><a href="#">Paintings</a></li>
+                        </ul>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="d-flex justify-content-center social-media">
+            <a href="https://www.instagram.com/saista_creation/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.behance.net/saistachhipa" target="_blank"><i class="fab fa-behance"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/cbf5d97fe2.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

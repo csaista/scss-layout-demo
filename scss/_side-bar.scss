@@ -1,0 +1,28 @@
+@import "mixin";
+@import "variables";
+.side-bar-wrapper {
+
+    background-color: $secondary-color;
+    padding-top: 30px;
+
+    .side-bar {
+        ul {
+            li {
+                color: white;
+
+
+                a {
+
+                    @include link();
+
+                    &:hover {
+                        color: black;
+                    }
+                    &:active{
+                        color: $sub-heading-color;
+                    }
+                }
+            }
+        }
+    }
+}

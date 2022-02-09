@@ -1,0 +1,23 @@
+@import "mixin";
+@include phone 
+{
+    .about-us-wrapper
+    {
+        h2 
+        {
+            font-size: 24px;
+        }
+    }
+}
+@include tablet
+{
+
+} 
+@include desktop 
+{
+
+}
+@include large-desktop
+{
+    
+}
